@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/flat,750x,075,f-pad,750x1000,f8f8f8.jpg">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, my name is Achraf Hanzaz and this is my portfolio which basically demonstrante what i learned in those last days. I wanted to post a picture of my self but the only good one from our website is extremely pixelated and i don't know how to make it look better. This portfolio has what i learned in those few days with HTML and CSS. Thanks for your attention.</p>
+    </section>
+
+
+
+    <section id="projects">
+        <h2>Projects :</h2>
+        <div class="project">
+            <h3>First project:</h3>
+            <p>My first time using html was with the first brief where i got a deeper understanding of what is html and what is css and thanks to it i was able to make this portfolio. </p>
+        </div>
+        <div class="project">
+            <h3>Second project:</h3>
+            <p>For my second project well its basically this portfolio its as simple as it gets where it has what i learned in those two past days :)</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact :</h2>
+        <p><b>If you'd like to get in touch, you can email me at </b> <a href="mailto:hanzazachraf581@gmail.com">hanzazachraf581@gmail.com</a>.</p>
+   <p><b><i>Or use this because i just learned how to make it: </i></b></p>
+   <form action="test.html" method="post">
+    <label for="Username"> <b>Username:</b></label>
+    <input type="text" id="Username" placeholder="Username" minlength="3" maxlength="15" required>
+    <br><br>
+    <label for="Password"><b>Password:</b></label>
+    <input type="password" id="Password" placeholder="Password" minlength="3" maxlength="15" required>
+    <br><br>
+    <label for="email"><b>Email:</b></label>
+    <input type="email" id="Email" placeholder="Example@gmail.com" required>
+    <br><br>
+    <label for="Phone"><b>Your phone number if you want to:</b></label>
+    <input type="tel" id="Phone" placeholder="06#######" >
+    <br><br>
+    <label for="bday"><b>Enter your birthday if you want to:</b></label>
+    <input type="date" id="bday" >
+    <br><br>
+    <label for="quantity"><b>Rate this for as a second project ou of 10:</b></label>
+    <input type="number" id="quantity" min="0" max="10" required>
+    <p><b>Are you a:</b></p>
+    <label for="Mr">Mr.</label>
+    <input type="radio" id="Mr" value="Mr." name="title">
+    <label for="Ms.">Ms.</label>
+    <input type="radio" id="Ms." value="Ms." name="title">
+    <label for="PhD">PhD</label>
+    <input type="radio" id="PhD" value="PhD" name="title">
+    <br><br>
+    <label for="payment"><b>Your level in coding: </b></label>
+    <select name="You are" id="You are">
+        <option value="Expert">Expert</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Beginner">Beginner</option>
+    </select>
+    
+    <br><br> <input type="reset"> <br>
+    <label for="submit"><i>It won't do anything don't raise your hopes </i></label>
+    <input type="submit">
+    </section>
+
+    <footer class="section-p1">
+        <div class="copyright">
+          <p> &copy; <strong>copy rights thingy</strong> </p>
+        </div>
+    </footer>
+</body>
+</html>

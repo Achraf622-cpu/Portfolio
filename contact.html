@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, you can email me at <a href="mailto:hanzazachraf581@gmail.com">hanzazachraf581@gmail.com</a>.</p>
+   <p>Or use this because i just learned how to make it: </p>
+   <form action="test.html" method="post">
+    <label for="Username"> Username:</label>
+    <input type="text" id="Username" placeholder="Username" minlength="3" maxlength="15" required>
+    <br><br>
+    <label for="Password">Password:</label>
+    <input type="password" id="Password" placeholder="Password" minlength="3" maxlength="15" required>
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="Email" placeholder="Example@gmail.com" required>
+    <br><br>
+    <label for="Phone">Your phone number if you want to:</label>
+    <input type="tel" id="Phone" placeholder="06#######" >
+    <br><br>
+    <label for="bday">Enter your birthday if you want to:</label>
+    <input type="date" id="bday" >
+    <br><br>
+    <label for="quantity">Rate this for as a second project:</label>
+    <input type="number" id="quantity" min="0" max="10" required>
+    <p>Are you a:</p>
+    <label for="Mr">Mr.</label>
+    <input type="radio" id="Mr" value="Mr." name="title">
+    <label for="Ms.">Ms.</label>
+    <input type="radio" id="Ms." value="Ms." name="title">
+    <label for="PhD">PhD</label>
+    <input type="radio" id="PhD" value="PhD" name="title">
+    <br><br>
+    <label for="payment">Your level in coding: </label>
+    <select name="You are" id="You are">
+        <option value="Expert">Expert</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Beginner">Beginner</option>
+    </select>
+    
+    <br><br> <input type="reset"> <br>
+    <label for="submit">It won't do anything don't rise your hopes</label>
+    <input type="submit">
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <h4>Contact</h4>
+            <p><strong>Address:Morocco, Safi</strong></p>
+            <p><strong>Phone:+212000000 / +212000000</strong></p>
+            <p><strong>Hours:10:00 - 18:00, Mon - Sat</strong></p>
+        </div>
+        <div class="copyright">
+          <p> &copy; <strong>copy rights thingy</strong> </p>
+        </div>
+    </footer>
+</body>
+</html>
